@@ -1,0 +1,31 @@
+{
+  "name": "siapi-generate",
+  "version": "3.6.5",
+  "description": "Master of ceremonies for the Siapi generators.",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "fs-extra": "^9.1.0",
+    "lodash": "4.17.21",
+    "reportback": "^2.0.2",
+    "siapi-utils": "github:siapi-biru/siapi-utils#v3.6.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siapi-biru/siapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siapi-biru/siapi/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+}
